@@ -8,6 +8,7 @@ import Adminpage from "./pages/Adminpage";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import Employeepage from "./pages/Employeepage";
 import Homepage from "./pages/Homepage";
+// import Homepage from "./pages/Homepage";
 
 
 const App = () => {
