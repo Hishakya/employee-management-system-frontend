@@ -6,16 +6,16 @@ function Header() {
     return (
         <header className="header">
             <div className="logo">
-                <Link to ='/'>Employee Management System</Link>
+                <Link to ='/'>Admin Dashboard</Link>
             </div>
             <ul>
                 <li> 
-                    <Link to ='/SignIn'>
+                    <Link to ='/Signin'>
                         <FaSignInAlt/>Sign In sir
                     </Link>
                 </li>
                 <li>
-                    <Link to ='/SignUp'>
+                    <Link to ='/Signup'>
                         <FaUser/>Sign Up
                     </Link>
                 </li>

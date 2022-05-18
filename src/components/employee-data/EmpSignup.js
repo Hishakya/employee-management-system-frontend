@@ -6,8 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import HomeIcon from '@mui/icons-material/Home';
 import LockIcon from '@mui/icons-material/Lock';
 
-
-const SignUp = () => {
+const EmpSignup = () => {
     const [input, setInput] = useState({})
 
     const handleChange = (event) =>{
@@ -87,7 +86,7 @@ const SignUp = () => {
                     <Button
                         onClick={handleSubmit}
                         variant="contained"
-                        > Admin SIGN UP
+                        >Emp SIGN UP
                     </Button>
                 </Grid>
             </Grid>
@@ -95,4 +94,4 @@ const SignUp = () => {
     )
 }
 
-export default SignUp
+export default EmpSignup

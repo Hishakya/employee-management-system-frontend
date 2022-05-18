@@ -1,13 +1,5 @@
 # Getting Started with Create React App
 
-npm i redux-logger redux react-redux
-npm install @mui/icons-material
-npm i axios 
-npm i @mui/styled-engine
-npm i @mui/material
-npm i react-router-dom
-npm install @mui/material @emotion/react @emotion/styled 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
