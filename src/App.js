@@ -7,7 +7,7 @@ import AdminDashboard from "./pages/AdminDashboard";
 import Adminpage from "./pages/Adminpage";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import Employeepage from "./pages/Employeepage";
-import Homepage from "./pages/Homepage";
+import HomePage from "./pages/Homepage";
 // import Homepage from "./pages/Homepage";
 
 
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/admin" element={<Adminpage />} />
         <Route path="/employee" element={<Employeepage />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />

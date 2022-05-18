@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FaSignInAlt, FaUser } from 'react-icons/fa'
 import "./Homepage.css";
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <>
      <header className="header">
@@ -32,4 +32,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;
